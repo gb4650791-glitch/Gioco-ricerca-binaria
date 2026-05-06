@@ -37,10 +37,6 @@ function restart(){
         nMaggiore=100
     }
 }
-function indovinaNumero(){
-numeroProva=50 
-p.innerHTML=`Il numero è ${numeroProva}?`
-}
 function changeMode(){
     restart()
     if(modalità=="DaFarIndovinare"){
@@ -49,7 +45,6 @@ function changeMode(){
         document.querySelector("div").hidden=false
         document.querySelector("label").hidden=true
         document.getElementById("invio").hidden=true
-        indovinaNumero()
         numeroProva=50 
         p.innerHTML=`Il numero è ${numeroProva}?`
     }
