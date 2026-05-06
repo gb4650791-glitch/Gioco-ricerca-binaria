@@ -50,6 +50,8 @@ function changeMode(){
         document.querySelector("label").hidden=true
         document.getElementById("invio").hidden=true
         indovinaNumero()
+        numeroProva=50 
+        p.innerHTML=`Il numero è ${numeroProva}?`
     }
     else if(modalità=="DaIndovinare"){
         modalità="DaFarIndovinare"
