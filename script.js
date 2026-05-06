@@ -46,7 +46,6 @@ function changeMode(){
         document.querySelector("label").hidden=true
         document.getElementById("invio").hidden=true
         indovinaNumero()
-        p.hidden=false
     }
     else if(modalità=="DaIndovinare"){
         modalità="DaFarIndovinare"
@@ -54,7 +53,7 @@ function changeMode(){
         document.querySelector("div").hidden=true 
         document.querySelector("label").hidden=false 
         document.getElementById("invio").hidden=false
-        p.hidden=true
+        p.innerHTML=``
     }
 }
 function indovinaNumero(){
