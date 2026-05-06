@@ -1,0 +1,29 @@
+p,h4{
+    color: rgb(20,90,70);
+    font-family: arial;
+}
+#j{
+    color:rgb(60,90,120);
+}
+h1{
+    color:rgb(70,120,90);
+}
+body{
+    background-color: #999999;
+}
+button{
+    background: floralwhite;
+    margin:5px;
+    width:90px;
+    height:40px;
+}
+#ro{
+    height:45px;
+}
+h3{
+    color:rgb(78,90,102);
+}
+a{
+    text-decoration-line: none;
+    color: cyan;
+}

@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<body>
+<link href="style.css" rel="stylesheet">
+<label for="input">Inserisci il numero che pensi sia uscito</label>
+<br><br><input type="number" placeholder="Numero da inserire"><br>
+<p></p>
+<button onclick="check()" id="invio">Invio</button>
+<button onclick="changeMode()" id="ro">Cambia modalità</button>
+<button onclick="restart()">Ricomincia</button>
+<a href="index.html"><button>Torna indietro</button></a>
+<div hidden>
+<button onclick="indovinateN('maggiore')">Maggiore</button>
+<button onclick="indovinateN('minore')">Minore</button>
+<button onclick="correct()">Giusto</button>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
